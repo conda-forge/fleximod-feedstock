@@ -1,5 +1,5 @@
 {% set name = "fleximod" %}
-{% set version = "0.1.7" %}
+{% set version = "0.1.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fleximod-{{ version }}.tar.gz
-  sha256: 870fd9b79b6bfd1bb6ae5192c6b1d89e8ff6c7c567dadaea9dbf48e72fb63366
+  sha256: 1ccf695f2270325274ccc9a2912f1e995647ab348fbe72ced0e8f2ed73cd481d
 
 build:
   noarch: python
